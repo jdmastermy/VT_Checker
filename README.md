@@ -1,4 +1,4 @@
-# VT_Checker
+# VT_Checker (Beta Version)
 A simple Virus Total Check for batch processing for my DFIR work
 
 You can use either GUI or CLI
