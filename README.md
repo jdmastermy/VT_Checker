@@ -22,4 +22,9 @@ Output:
 will update later
 
 ## Installation
-modify vt_utils.py and add your VT API KEY
+modify *vt_utils.py* and add your VT API KEY
+
+```
+pip install tkinter
+pip install argparse
+```
