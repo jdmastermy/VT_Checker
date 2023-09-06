@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "06c39218078cb8b0fdef500d050eadbe38b41f9149d3b567f72886618cb9d290"
+API_KEY = "PLACE YOUR VT API KEY"
 BASE_URL = "https://www.virustotal.com/api/v3/"
 
 HEADERS = {
