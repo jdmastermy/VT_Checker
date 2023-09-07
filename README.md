@@ -3,6 +3,19 @@ A simple Virus Total Check for batch processing for my DFIR work
 
 You can use either GUI or CLI
 
+## Installation
+modify *vt_utils.py* and add your VT API KEY
+
+VT-Checker built using python3 so in order to use the tool you need to install the required libraries.
+
+`python3 -m pip install -r requirements.txt`
+
+or
+
+`pip install tkinter`
+
+`pip install argparse`
+
 ## GUI - VTCGUI.py
 You just need to provide input type and input file or just copy and paste the input
 Input types:
@@ -16,14 +29,12 @@ Output:
 - JSON
 - TXT
   
-![Beta Mode of VT_Checker](https://github.com/jdmastermy/VT_Checker/blob/main/GUI.PNG)
-
 ## CLI - VTCLI.py
 
 ### Usage
-```
-VTCLI.py [-h] -t {IP,URL,MD5 Hash,SHA1 Hash,SHA256 Hash} [-d DATA] [-f FILE] -o OUTPUT [-fmt {CSV,JSON,TXT}]
-```
+
+`VTCLI.py [-h] -t {IP,URL,MD5 Hash,SHA1 Hash,SHA256 Hash} [-d DATA] [-f FILE] -o OUTPUT [-fmt {CSV,JSON,TXT}]`
+
 ### Options
 ```
 -t    Specify the type of data you want to check. It can be an IP address, URL, or a type of hash (MD5, SHA1, SHA256).
@@ -33,10 +44,5 @@ VTCLI.py [-h] -t {IP,URL,MD5 Hash,SHA1 Hash,SHA256 Hash} [-d DATA] [-f FILE] -o 
 -fmt  Specify the format for the output file. The default is CSV, but JSON and TXT are also available.
 ```
 
-## Installation
-modify *vt_utils.py* and add your VT API KEY
-
-```
-pip install tkinter
-pip install argparse
-```
+### Screenshot
+![Beta Mode of VT_Checker](GUI.PNG)  
